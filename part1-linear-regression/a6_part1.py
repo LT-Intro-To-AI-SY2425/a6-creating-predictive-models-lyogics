@@ -21,7 +21,7 @@ intercept = round(float(model.intercept_), 2)
 r_squared = model.score(x, y)
 
 x_predict = 43
-prediction = model.predict([x.predict])
+prediction = model.predict([[x.predict]])
 # Print out the linear equation and r squared value
 print(f"Model's Linear Equation: y = {coef}x + {intercept}")
 print(f"R Squared Value: {r_squared}")
