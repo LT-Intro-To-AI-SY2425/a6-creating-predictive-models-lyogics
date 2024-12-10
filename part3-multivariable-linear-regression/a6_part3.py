@@ -26,6 +26,7 @@ print("R Squared Value:", r_squared)
 #actual prices
 predict = model.predict(xtest)
 predict = np.around(predict, 2)
+
 print(predict)
 
 print("\nTesting Multivariable Model with Testing Data:")
