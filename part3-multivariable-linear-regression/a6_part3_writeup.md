@@ -6,7 +6,7 @@ After completing `a6_part3.py` answer the following questions
 
 1. What is the R Squared coefficient for your model? What does that mean about the model in relation to your data? The r squared coefficient is 0.86 for my model, and that indicates that the variables have a strong positive correlation.
 
-2. Is your model accurate? Why or why not? My model is not accurate
+2. Is your model accurate? Why or why not? My model is not accurate because of the large gaps between the actual value and the predicted value. This could be because the model does not account for other factors beyond mileage and age that affect the cost of a car.
 
 3. What does the model predict a 10-year-old car with 89000 miles is worth? What about a car that is 20 years old with 150000 miles?
 
