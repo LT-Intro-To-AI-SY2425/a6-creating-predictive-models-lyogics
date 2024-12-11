@@ -24,11 +24,13 @@ print(f"Model's Linear Equation: y={coef[0]}x1 + {coef[1]}x2 + {intercept}")
 print("R Squared Value:", r_squared)
 #Loop through the data and print out the predicted prices and the 
 #actual prices
+x_predict = [10, 89000]
+prediction = model.predict([x_predict])
 predict = model.predict(xtest)
 predict = np.around(predict, 2)
 
 print(predict)
-
+print()
 print("\nTesting Multivariable Model with Testing Data:")
 for index in range(len(xtest)):
     actual = ytest[index]
