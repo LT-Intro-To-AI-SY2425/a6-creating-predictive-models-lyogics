@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 from sklearn import linear_model
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -8,8 +9,6 @@ data['Gender'].replace(['Male','Female'],[0,1],inplace=True)
 
 x = data[["Age", "EstimatedSalary", "Gender"]].values
 y = data["Purchased"].values
-print(x)
-print(y)
 
 scaler = StandardScaler().fit(x)
 x = scaler.transform(x)
