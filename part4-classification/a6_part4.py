@@ -39,6 +39,7 @@ for index in range(len(x_test)):
     elif actual == 1:
         actual = "Female"
     print("Predicted Gender: " + y_pred + " Actual Gender: " + actual)
+    print("")
 # Step 1: Print the values for x and y
 
 # Step 2: Standardize the data using StandardScaler, 
