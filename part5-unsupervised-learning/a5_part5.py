@@ -24,10 +24,10 @@ plt.figure(figsize=(5,4))
 #use a for loop to plot the data points in each cluster
 for i in range(k):
     cluster = x_std[labels == i]
-    plt.scatter(cluster[:,0], cluster[:,1])
+    plt.scatter(cluster[:,0], cluster[:,1], cluster[:,2], cluster[:,3], cluster[:,4])
 
 #plot the centroids
-plt.scatter(centroids[:, 0], centroids[:, 1], marker='X', s=100, c='r', label='centroid')
+plt.scatter(centroids[:, 0], centroids[:, 1], centroids[:,2], centroids[:,3], centroids[:,4], marker='X', s=100, c='r', label='centroid')
             
 #shows the graph
 plt.xlabel("Annual Income")
