@@ -10,5 +10,5 @@ After completing `a6_part4.py` answer the following questions
 
 3. Looking at the predicted and actual results, how did the model do? Was there a pattern to the inputs that the model was incorrect about? The model did very well while predicting the results of the data. There was not a pattern to the inputs that the model was incorrect about.
 
-4. Would a 34 year old Female who makes 56000 a year buy an SUV according to the model? Remember to scale the data before running it through the model. According to the data, a 34 year old female who makes 56,000 a year would 
+4. Would a 34 year old Female who makes 56000 a year buy an SUV according to the model? Remember to scale the data before running it through the model. According to the data, a 34 year old female who makes 56,000 a year would not buy an SUV according to the model.
 
